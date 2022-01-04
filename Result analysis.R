@@ -1,6 +1,7 @@
-
+# load library for analysis
 library("ggplot2")
 
+# analse from the loaded data 'my.df2'
 p2 <- ggplot(data = my.df2, aes(x = vaccinated_population, y = max_infected_time, 
                           group = vaccinated_population )) + 
         geom_boxplot() + facet_wrap ( ~ average_immune_time)
