@@ -24,9 +24,10 @@ This project is designed to simulate virtual virus spreading scenarios to addres
 
 
 ## How to run
-Either download NetLogo or use web version NetLogo at https://ccl.northwestern.edu/netlogo/. For a brief look, I suggest to use the web version NetLogo by uploading the file. Compatible with NetLogo 6.2.2. 
+Either download NetLogo or use web version NetLogo at https://ccl.northwestern.edu/netlogo/. For a brief look, I suggest to use the web version NetLogo by uploading `covid19 simulator.nlogo`. Compatible with NetLogo 6.2.2. 
 
-In this project, I analysed the results from NetLogo in R. R studio is available at https://www.rstudio.com/products/rstudio/download/. 
+In this project, I exported the results from NetLogo in R. Firstly, run `Data load.R` to read `/results.csv` (path may differ as yours). Then, run `Result analysis.R` to analyse and visualise the loaded data. 
+R studio is available at https://www.rstudio.com/products/rstudio/download/. 
 
 <br>
 
